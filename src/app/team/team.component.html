@@ -1,0 +1,14 @@
+<form [formGroup]="teamForm" >
+  Team Name: {{teamForm.controls.name.value}}
+
+  <p>Players:</p>
+  <button mat-button-raised color="primary"(click)="addPlayer()">Add Player</button>
+  <ul>
+    <li *ngFor="let player of players?.controls; let i = index">
+      <nba-player [index]="i" [playerForm]="player" (deletePlayer)="deletePlayer($event)"></nba-player>
+    </li>
+  </ul>
+
+  <button  type="submit" mat-button-raised color="accent" (click)="saveTeam()" [disabled]="teamForm.invalid">Submit</button>
+  <pre>Parent Form Status: <span class="status">{{teamForm.status}}</span></pre>
+</form>

@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "elementType": "Group",
+      "items": [
+        {
+          "elementType": "Field"
+        },
+        {
+          "elementType": "Field"
+        },
+        {
+          "elementType": "Field"
+        }
+      ]
+    },
+    {
+      "elementType": "Group",
+      "items": []
+    },
+    {
+      "elementType": "Group",
+      "items": [
+        {
+          "elementType": "Group",
+          "items": [
+            {
+              "elementType": "Field"
+            },
+            {
+              "elementType": "Field"
+            },
+            {
+              "elementType": "Group",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elementType": "Field"
+    },
+    {
+      "elementType": "Field"
+    }
+  ]
+}
