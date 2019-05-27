@@ -1,6 +1,6 @@
 {
-  "name": "nba-team-manager",
-  "version": "0.0.0",
+  "name": "dynamic-nested-forms",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

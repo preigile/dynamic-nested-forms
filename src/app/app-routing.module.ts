@@ -1,13 +1,15 @@
-import { NgModule } from '@angular/core'
-import { Routes, RouterModule } from '@angular/router'
-import { TeamComponent } from './team/team.component'
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+
+import { NestedFormsComponent } from './nested-forms/nested-forms.component';
 
 const routes: Routes = [
-  {path: '', component: TeamComponent}
-]
+  { path: '', component: NestedFormsComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
+
 export class AppRoutingModule { }
